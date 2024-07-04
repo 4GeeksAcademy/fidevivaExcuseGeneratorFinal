@@ -21,8 +21,9 @@ function generateExcuse() {
   let randomWhat = what[Math.floor(Math.random() * what.length)];
   let randomWhen = when[Math.floor(Math.random() * when.length)];
 
-  let concatenatedString = randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
-  
+  let concatenatedString =
+    randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
+
   return concatenatedString;
 }
 
